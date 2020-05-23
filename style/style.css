@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ecf0f3;
+}
+
+
+.container {
+    width: 450px;
+    height: 700px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 24px;
+    letter-spacing: 1px;
+    
+}
