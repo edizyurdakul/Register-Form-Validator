@@ -16,6 +16,30 @@ body {
     background-color: #ecf0f3;
 }
 
+.form-control.error input {
+    border-style: solid!important;
+    border-color: red!important;
+    
+}
+
+.form-control.success input {
+    border-style: solid!important;
+    border-color: #24cfaa!important;
+    
+}
+
+.form-control {
+    margin-bottom: 15px;
+    height: 90px;
+}
+
+.form-control small {
+    visibility: hidden;
+}
+.form-control.error small {
+    visibility: visible;
+}
+
 
 .container {
     width: 450px;
@@ -42,11 +66,18 @@ body {
 }
 
 
-
+small {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-weight: 300;
+}
 
 input {
     margin: auto;
     display: block;
+    margin-bottom: 10px!important;
+    font-weight: 600;
     
 }
 
