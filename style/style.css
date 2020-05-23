@@ -7,7 +7,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    
+    font-family: 'Raleway', sans-serif!important;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -32,5 +32,66 @@ body {
     font-size: 30px;
     padding-top: 24px;
     letter-spacing: 1px;
+    margin-bottom: 60px;
     
 }
+
+.form {
+    width: 100%;
+    padding: 75px 5px 5px 5px;    
+}
+
+
+
+
+input {
+    margin: auto;
+    display: block;
+    
+}
+
+#username, #password, #password-2, #email {
+    width: 75%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+    font: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password, .password-2, .email {
+margin-bottom: 30px;
+border-radius: 25px;
+box-shadow: inset 4px 4px 4px #cbced1, 
+            inset -4px -4px 4px #fff;
+}
+
+
+.button {
+    outline: none;
+    margin: auto;
+    display: block;
+    border:none;
+    cursor: pointer;
+    width:75%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  .button:hover {
+    background:#2fdbb6;
+  }
+  .button:active {
+    background:#1da88a;
+  }
+  
